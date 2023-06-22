@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.navbar{
+    display:flex;
+    color:white;
+    background-color: rgb(101, 151, 226);
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+.logo{
+    margin-right: 400px;
+
+}
+.app-logo{
+    margin-left: 100px;
+    font-weight: 300;
+}
+.material-symbols_outlined{
+    padding-top: 50px;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width:100%;
+}
+
+.registration{
+    width:50%;
+    border:solid  rgb(101, 151, 226);
+    border-radius:20px;
+    overflow: hidden;
+    
+}
+.form-header{
+    background-color:rgb(101, 151, 226) ;
+    color:white;
+    padding-left: 30px;
+
+}
+form{
+
+    padding:0 60px;
+}
+.buttons{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 60px;
+    margin-bottom: 15px;
+}
+#add-employee-btn{
+    background-color:   rgb(101, 151, 226);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width:100px;
+    font-size: medium;
+    padding: 5px;
+    font-weight:bold;
+
+}
+#clear-btn{
+    background-color: white;
+    color:grey;
+    border:none;
+    padding: 5px;
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.section3{
+    height:500px;
+    background-color:  rgb(101, 151, 226);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+
+}
+li{
+    list-style: none;
+    background: rgb(10, 10, 219);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+li button{
+    margin-left:20px;
+    border: solid white;
+    background: rgb(10, 10, 219);
+    color:white;
+    padding:15px;
+    border-radius: 100%;
+}
+    
